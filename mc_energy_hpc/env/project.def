@@ -1,0 +1,13 @@
+Bootstrap: docker
+From: python:3.11-slim
+
+%post
+    apt-get update && apt-get install -y build-essential git \
+        && rm -rf /var/lib/apt/lists/*
+    pip install --no-cache-dir mpi4py numpy matplotlib h5py
+
+%environment
+    export PATH=/usr/local/bin:$PATH
+
+%runscript
+    exec python "$@"
