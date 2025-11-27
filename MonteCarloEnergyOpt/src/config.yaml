@@ -1,0 +1,23 @@
+molecule:
+  xyz: data/sample_molecule.xyz
+  bond_pairs:
+    - [0, 1]
+    - [1, 2]
+    - [2, 3]
+  bond_k: 50.0
+  bond_r0: 1.0
+
+simulate:
+  steps: 2000
+  step_size: 0.05
+  temperature:
+    start: 1.0
+    min: 0.001
+    anneal_rate: 0.995
+  seed: 12345
+  log_interval: 200
+  save_interval: 0
+  outdir: results
+
+scaling:
+  mode: strong
