@@ -1,0 +1,13 @@
+2025-11-27 13:41:11 | montecarlo | INFO | step=200 temp=0.36696 energy=0.738696 best=0.130558 accepted=154/200
+2025-11-27 13:41:11 | montecarlo | INFO | step=400 temp=0.13466 energy=0.083369 best=0.009035 accepted=293/400
+2025-11-27 13:41:11 | montecarlo | INFO | step=600 temp=0.04941 energy=0.072261 best=0.004833 accepted=398/600
+2025-11-27 13:41:11 | montecarlo | INFO | step=800 temp=0.01813 energy=0.025687 best=0.002853 accepted=486/800
+2025-11-27 13:41:11 | montecarlo | INFO | step=1000 temp=0.00665 energy=0.020749 best=0.000862 accepted=539/1000
+2025-11-27 13:41:11 | montecarlo | INFO | step=1200 temp=0.00244 energy=0.000621 best=0.000621 accepted=568/1200
+2025-11-27 13:41:11 | montecarlo | INFO | step=1400 temp=0.00100 energy=0.000723 best=0.000229 accepted=582/1400
+2025-11-27 13:41:11 | montecarlo | INFO | step=1600 temp=0.00100 energy=0.001635 best=0.000229 accepted=590/1600
+2025-11-27 13:41:11 | montecarlo | INFO | step=1800 temp=0.00100 energy=0.002371 best=0.000229 accepted=611/1800
+2025-11-27 13:41:11 | montecarlo | INFO | step=2000 temp=0.00100 energy=0.000108 best=0.000108 accepted=621/2000
+2025-11-27 13:41:11 | montecarlo | INFO | Completed 2000 steps in 0.042 s | acceptance=0.310 best_energy=0.000108
+2025-11-27 13:41:11 | montecarlo | INFO | Global best energy 0.000108 from rank 0 (runtime 0.042 s)
+2025-11-27 13:41:11 | montecarlo | INFO | Broadcasted best energy 0.000108 to all ranks
